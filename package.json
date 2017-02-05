@@ -1,0 +1,22 @@
+{
+  "name": "linter-julia-syntax",
+  "main": "./lib/linter-julia-syntax",
+  "version": "0.0.0",
+  "description": "This linter plugin for [Linter](https://github.com/AtomLinter/Linter) provides some own Info messages (currently long lines and extra whitespace characters). It will be used with files that have the “Julia” syntax.",
+  "keywords": [
+  ],
+  "repository": "https://github.com/atom/linter-julia-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "providedServices": {
+  "linter": {
+    "versions": {
+      "1.0.0": "provideLinter"
+      }
+    }
+  }
+}
